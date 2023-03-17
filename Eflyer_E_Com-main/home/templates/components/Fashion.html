@@ -3,7 +3,7 @@
     <div id="main_slider" class="carousel slide" data-ride="carousel">
       
       <div class="carousel-inner">
-      {% for cloth,cloth1,cloth3 in zipped %}
+      {% for cloth,cloth1,cloth3 in fashion %}
         {% if forloop.counter0 == 0 %}
         <div class="carousel-item active">
           <div class="container">
@@ -64,7 +64,7 @@
         {% endfor %} 
       </div>
 
-       {% for cloth4,cloth5,cloth6 in zipped1 %}
+       {% for cloth4,cloth5,cloth6 in fashion1 %}
         {% if forloop.first %}
           
         {% else %}
